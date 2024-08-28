@@ -22,8 +22,8 @@ export default function Home() {
           <Image src={"/logo.png"} alt="logo" width={60} height={60} />
           <h1 className="font-semibold text-xl">GlobTrek</h1>
         </div>
-        <nav className="flex gap-4 lg:gap-8">
-          <div className="lg:flex items-center hidden gap-4 lg:gap-8">
+        <nav className="flex gap-4 md:gap-8">
+          <div className="md:flex items-center hidden gap-4 md:gap-8">
             <Link href={"/pricing"} className="">
               PRICING
             </Link>
@@ -39,17 +39,20 @@ export default function Home() {
           </button>
         </nav>
       </div>
-      <div className="absolute top-1/2 transform -translate-y-1/2 text-center space-y-2">
-        <h2 className="text-3xl lg:text-4xl font-bold">
-          GlobeTrek capture every step of your adventures.
-        </h2>
-        <p>
-          A world map that tracks your footsteps into every city you can think
-          of. Never forget your wonderful experiences 🪂
-        </p>
-        <button className=" bg-[#00c46a] font-medium p-4 rounded-md mt-2">
-          START TRACKING NOW
-        </button>
+      <div className="absolute top-1/2 transform -translate-y-1/2 text-center w-[100vw] flex items-center justify-center md:px-32 px-2">
+        <div className="space-y-4">
+          <h2 className="text-3xl md:text-6xl font-bold">
+            GlobeTrek capture every step of your adventures.
+          </h2>
+          <p className="md:text-xl text-base">
+            A world map that tracks your footsteps into every city you can think
+            of. Never forget your wonderful experiences, and show your friends
+            how you have wandered the world.🪂
+          </p>
+          <button className=" bg-[#00c46a] font-medium p-4 rounded-md">
+            START TRACKING NOW
+          </button>
+        </div>
       </div>
     </main>
   );
