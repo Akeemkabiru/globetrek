@@ -39,12 +39,12 @@ export default function Home() {
           </button>
         </nav>
       </div>
-      <div className="absolute top-1/2 transform -translate-y-1/2 text-center w-[100vw] flex items-center justify-center md:px-32 px-2">
+      <div className="absolute top-1/2 transform -translate-y-1/2 text-center w-[100vw] flex items-center justify-center md:px-32">
         <div className="space-y-4">
-          <h2 className="text-2xl md:text-6xl font-bold">
+          <h2 className="text-3xl md:text-6xl font-bold">
             GlobeTrek capture every step of your adventures.
           </h2>
-          <p className="md:text-xl text-base">
+          <p className="md:text-xl text-base w-full px-4">
             A world map that tracks your footsteps into every city you can think
             of. Never forget your wonderful experiences, and show your friends
             how you have wandered the world.🪂
