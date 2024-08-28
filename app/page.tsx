@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 export default function Home() {
   const router = useRouter();
   return (
-    <main className="relative w-[100vw] h-[100vh] text-gray-300">
+    <main className="relative w-[100vw] h-[100vh] text-gray-200">
       <video
         className="absolute top-0 left-0 w-full h-full object-cover -z-10"
         autoPlay
@@ -41,7 +41,7 @@ export default function Home() {
       </div>
       <div className="absolute top-1/2 transform -translate-y-1/2 text-center w-[100vw] flex items-center justify-center md:px-32">
         <div className="space-y-4">
-          <h2 className="text-3xl md:text-6xl font-bold px-1">
+          <h2 className="text-3xl md:text-6xl font-bold">
             GlobeTrek capture every step of your adventures
           </h2>
           <p className="md:text-xl text-base px-1">
