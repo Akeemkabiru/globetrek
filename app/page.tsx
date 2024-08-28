@@ -7,17 +7,15 @@ import { useRouter } from "next/navigation";
 export default function Home() {
   const router = useRouter();
   return (
-    <main className="relative w-[100vw] h-[100vh] text-gray-200">
-      <video
-        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
-        autoPlay
-        loop
-        muted
-        playsInline
-      >
-        <source src="/vid.mp4" type="video/mp4" />
-      </video>
-      <div className="flex items-center justify-between relative pt-4 pr-4">
+    <main
+      className="relative w-[100vw] h-[100vh] text-gray-200"
+      style={{
+        background: "url('/kayle.jpg')",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
+    >
+      <div className="flex justify-between pt-4 pr-4">
         <div className="flex items-center">
           <Image src={"/logo.png"} alt="logo" width={60} height={60} />
           <h1 className="font-semibold text-xl">GlobTrek</h1>
