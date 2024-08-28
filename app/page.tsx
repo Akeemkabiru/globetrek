@@ -41,7 +41,7 @@ export default function Home() {
       </div>
       <div className="absolute top-1/2 transform -translate-y-1/2 text-center w-[100vw] flex items-center justify-center md:px-32 px-2">
         <div className="space-y-4">
-          <h2 className="text-3xl md:text-6xl font-bold">
+          <h2 className="text-2xl md:text-6xl font-bold">
             GlobeTrek capture every step of your adventures.
           </h2>
           <p className="md:text-xl text-base">
